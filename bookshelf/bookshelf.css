@@ -1,0 +1,111 @@
+
+#container{
+    margin: auto;
+    width: 70%;
+
+}
+
+body{
+    background-color: ivory;
+    /* background-color: rgb(199, 178, 153); */
+    /* background-image: linear-gradient(#95e0e3, #53BABD); */
+    cursor: url(../images/sootcursor.png), pointer;
+   
+}
+h1{
+    color: #398f6f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+h2{
+    color: rgb(123, 79, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:medium;
+    text-align: center;
+    padding-bottom: 20px;
+}
+h3{
+    color: #DB717E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding-top: 45px;
+    text-align: center;
+}
+h4{
+    color: rgb(123, 79, 40);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:xx-large;
+    padding: 90px;
+
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 250px;
+}
+p{
+    margin:auto;
+    text-align: left;
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 28, 3);
+    line-height: 130%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.p6{
+    padding-bottom: 200px;
+}
+#exercpt{
+    padding: 20px;
+    color:rgb(45, 63, 80);
+}
+.ex{
+    text-align: center;
+    padding: 5px;
+
+}
+.ex-2{
+    text-align: center;
+    padding: 5px;
+
+}
+.ex-3{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+
+}
+#imag1::after{
+    content: "\a";
+    white-space: pre;
+}
+#imag2::before{
+    content: "\a";
+    padding-top: 50px;
+}
+#leftSparkle{
+    position: absolute;
+    left: 210px;
+    bottom: -2500px;
+    transform: scaleX(-1);
+    z-index: -1;
+}
+#rightSparkle{
+    position: absolute;
+    bottom: -2600px;
+    right: 210px;
+    transform: scaleY(-1);
+    z-index: -1;
+}
+#back{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+#back:hover{
+    opacity: 70%;
+}
