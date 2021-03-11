@@ -1,0 +1,102 @@
+
+
+#container{
+    margin: auto;
+    width: 70%;
+}
+body{
+    background-color: rgb(199, 178, 153);
+    cursor: url(images/sootcursor.png), pointer;
+    padding: 0;
+}
+
+/* cat bus animation */
+.bg{
+    position: relative;
+    background: transparent url(images/catbus.png);
+    height: 100vh;
+    background-size: 550px 100px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+    padding: 0;
+
+}
+@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+}
+/* end of animation */
+
+h1{
+    color: ivory;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+
+}
+p.disney{
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 200px;
+    left: 410px;
+}
+#howlCafe{
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+#howlCafe :hover{
+    opacity: 0.7;
+}
+#magicShop{
+    position: absolute;
+    top: 295px;
+    right: 250px;
+}
+#magicShop:hover{
+    opacity: 0.7;
+}
+.magicGif{
+    position: absolute;
+    top: 270px;
+    right: 80px;
+    z-index: -1;
+    opacity: 80%;
+}
+#teleportStn{
+    position: absolute;
+    top: 900px;
+    right: 250px;
+}
+#teleportStn :hover{
+    opacity: 0.7;
+}
+#gallery{
+    position: absolute;
+    top: 900px;
+    left: 250px;
+}
+#gallery :hover{
+    opacity: 0.7;
+}
+.kikiGif{
+    position: absolute;
+    top: 10px;
+    left: 34px;
+    z-index: 1;
+}
+
+    
+
+
+
+ 
